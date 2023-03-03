@@ -176,6 +176,7 @@ button{
     box-sizing: border-box;
     padding-inline: 10px;
     max-width: 33.33%;
+    flex-grow: 1;
 }
 .trending-post{
     display: flex;
