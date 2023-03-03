@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     let anim = setInterval(() => {
         let rand = Math.floor(Math.random() * mList.length)
         let m = mList[rand]
-        m.style.opacity ? m.style.opacity = 1 : m.style.opacity = 0
-    }, 200);
+        console.log(m.style.opacity);
+        m.style.opacity || m.style.opacity === "0" ? m.style.opacity = 1 : m.style.opacity = 0
+    }, 50);
 })
