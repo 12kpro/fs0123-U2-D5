@@ -317,6 +317,8 @@ article{
 }
 
 .side{
+    position: sticky;
+    top: 75px;
     box-sizing: border-box;
     max-width: 40%;
     padding-left: 100px;
