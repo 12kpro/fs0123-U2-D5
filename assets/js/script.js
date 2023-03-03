@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
         let rand = Math.floor(Math.random() * mList.length)
         let m = mList[rand]
         m.style.opacity ? m.style.opacity = 1 : m.style.opacity = 0
-    }, 500);
+    }, 200);
 })
