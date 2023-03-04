@@ -23,6 +23,7 @@
 #hero .content h2{
     font-family: 'Spectral', serif;
     font-size: 106px;
+    line-height: 95px;
     color: #080808;
     letter-spacing: -0.05em;
     margin-bottom: 35px;
@@ -42,4 +43,32 @@
     background-color: #191919;
     border-radius: 100px;
     color: #fff;
+}
+@media screen and (max-width: 1135px) { 
+    #hero .hero-svg{
+        right: -130px;
+    }
+}
+
+@media screen and (max-width: 992px) { 
+    #hero .hero-svg{
+        right: -250px;
+    }
+    #hero .content h2{
+        font-size: 85px;
+        line-height: 88px;
+        letter-spacing: -0.055em;
+        margin-bottom: 35px;
+    }
+
+}
+
+@media screen and (max-width: 768px) { 
+    #hero .hero-svg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) { 
+
 }

@@ -2,15 +2,9 @@
     box-sizing: border-box;
 }
 body{
-    /*color: #292929;*/
     color: #757575;
     font-family: 'Roboto', sans-serif;
-    /*font-family: 'Spectral', serif;*/
 }
-/*
-#757575
-#E6E6E6
-*/
 h2{
     font-weight: 700;
     color: #292929;
@@ -58,4 +52,14 @@ button{
 }
 .content{
     margin-inline: 64px;
+}
+@media screen and (max-width: 992px) { 
+
+
+}
+
+@media screen and (max-width: 768px) { 
+    .content{
+        margin-inline: 24px;
+    }
 }
