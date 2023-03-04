@@ -10,6 +10,9 @@ article{
     display: flex;
     margin-bottom: 40px;
 }
+.posts-content{
+    flex-basis: 60%;
+}
 .post-author{
     display: flex;
     align-items: center;
@@ -20,6 +23,7 @@ article{
     height: 20px;
     border-radius: 4px;
     vertical-align: middle;
+    border-radius: 50%;
 }
 .post-content h2 {
     font-size: 22px;
@@ -32,6 +36,7 @@ article{
     justify-content: space-around;
     margin-right: 20px;
     text-overflow: ellipsis;
+    flex-grow: 1;
 }
 .post-tag{
     padding: 4px 8px;
@@ -68,6 +73,9 @@ article{
     }
     .post-content{
         flex-grow: 1;
+    }
+    .posts-content{
+        flex-basis: unset;
     }
 
 }
