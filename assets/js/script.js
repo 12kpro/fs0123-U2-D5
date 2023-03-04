@@ -9,11 +9,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     :  menu.classList.remove("bg-white")
     })
 
-    let mList = document.querySelectorAll("svg  path")
+    let mList = document.querySelectorAll("svg g[stroke-linecap='butt']")
     let anim = setInterval(() => {
         let rand = Math.floor(Math.random() * mList.length)
         let m = mList[rand]
-//        console.log(m.style.opacity);
-        m.style.opacity || m.style.opacity === "0" ? m.style.opacity = 1 : m.style.opacity = 0
+        let hasPath = m.getElementsByTagName('path')
+        let opacity = m.getAttribute("opacity")
+            hasPath.length && opacity==='0' ? m.setAttribute("opacity", 1 ) : m.setAttribute("opacity", 0 )
     }, 50);
 })
