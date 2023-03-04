@@ -58,13 +58,18 @@
         font-size: 85px;
         line-height: 88px;
         letter-spacing: -0.055em;
-        margin-bottom: 35px;
     }
-
 }
 
 @media screen and (max-width: 768px) { 
     #hero .hero-svg {
         display: none;
+    }
+}
+@media screen and (max-width: 576px) { 
+    #hero .content h2{
+        font-size: 70px;
+        line-height: 74px;
+        letter-spacing: -0.05em;
     }
 }
