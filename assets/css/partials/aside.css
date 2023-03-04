@@ -1,0 +1,44 @@
+.discover-container{
+    padding-bottom: 22px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.discover-container h2{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.discover-content a{
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    padding: 6px 16px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+}
+.discover-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 10px;    
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    padding: 24px 0;
+    column-gap: 10px;
+}
+.tags a{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.side{
+    position: sticky;
+    top: 115px;
+    box-sizing: border-box;
+    flex-basis: 30%;
+}

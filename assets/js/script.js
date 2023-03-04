@@ -1,12 +1,10 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    let scrollpos = window.scrollY
-
-    const menu = document.querySelector("#menu-wrapper")
-    const scrollChange = 50     // correggere
+    
+    const menu = document.querySelector("#menu")
+    const scrollChange = 400     // correggere
 
     window.addEventListener('scroll', function() { 
-        scrollpos = window.scrollY;
-        scrollpos >= scrollChange 
+        window.scrollY >= scrollChange 
                     ?  menu.classList.add("bg-white")
                     :  menu.classList.remove("bg-white")
     })
@@ -15,7 +13,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     let anim = setInterval(() => {
         let rand = Math.floor(Math.random() * mList.length)
         let m = mList[rand]
-        console.log(m.style.opacity);
+//        console.log(m.style.opacity);
         m.style.opacity || m.style.opacity === "0" ? m.style.opacity = 1 : m.style.opacity = 0
     }, 50);
 })

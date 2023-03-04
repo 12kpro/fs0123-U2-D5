@@ -1,0 +1,45 @@
+#hero{
+    position: relative;
+    padding-top: 75px;
+    background-color: #ffc117;
+}
+#hero .hero-svg{
+    position: absolute;
+    width: 585px;
+    right: 0;
+}
+#hero .container{
+    justify-content: flex-start;
+}
+
+#hero .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    padding-block: 92px;
+}
+
+#hero .content h2{
+    font-family: 'Spectral', serif;
+    font-size: 106px;
+    color: #080808;
+    letter-spacing: -0.05em;
+    margin-bottom: 35px;
+}
+#hero .content h3 {
+    font-size: 24px;
+    color: #292929;
+    margin-bottom: 50px;
+    width: 80%;
+    line-height: 24px;
+}
+#hero .content button {
+    padding: 7px 20px 9px;
+    width: 213px;
+    font-size: 20px;
+    border-color: #191919;
+    background-color: #191919;
+    border-radius: 100px;
+    color: #fff;
+}
