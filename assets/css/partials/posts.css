@@ -60,7 +60,7 @@ article{
 
 .post-thumb img{
     width: 200px;
-    height: 134px;
+    /*height: 134px;*/
 
 }
 @media screen and (max-width: 992px) { 
@@ -84,6 +84,23 @@ article{
     .post-content h2 {
         font-size: 16px;
         line-height: 20px;
-        font-weight: 700;
+    }
+    .post-content h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }    
+}
+@media screen and (max-width: 576px) { 
+    .post-content h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .post-content h3 {
+        display: none;
+    }    
+    .post-thumb img{
+        width: 150px;
+        /*height: 134px;*/
+    
     }
 }
